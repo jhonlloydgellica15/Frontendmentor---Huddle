@@ -134,6 +134,11 @@ footer .circle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.35s;
+}
+footer .circle:hover {
+  border-color: var(--pink);
+  color: var(--pink);
 }
 
 @media screen and (max-width: 480px) {
