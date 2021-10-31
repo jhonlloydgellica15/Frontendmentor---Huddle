@@ -75,6 +75,7 @@ p {
 .btn-primary {
   background: var(--pink);
   color: #fff;
+  transition: all 0.15s;
 }
 
 .btn-primary:hover {
